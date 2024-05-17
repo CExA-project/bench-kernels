@@ -1,0 +1,12 @@
+[submodule "tpls/kokkos"]
+	path = tpls/kokkos
+	url = https://github.com/kokkos/kokkos.git
+[submodule "tpls/kokkos-kernels"]
+	path = tpls/kokkos-kernels
+	url = https://github.com/yasahi-hpc/kokkos-kernels.git
+[submodule "tpls/benchmark"]
+	path = tpls/benchmark
+	url = https://github.com/google/benchmark.git
+[submodule "tpls/googletest"]
+	path = tpls/googletest
+	url = https://github.com/google/googletest.git
