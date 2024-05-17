@@ -1,6 +1,6 @@
 # bench-kernels
 
-# Compile
+# Compile and Run
 ## CPU (OpenMP backend)
 
 ```bash
@@ -44,3 +44,15 @@ perf_test/benchmark_kernels --benchmark_format=json --benchmark_out=tbsv_bench.j
 ```bash
 python analysis.py -dirname build_gpu
 ```
+
+## Results
+
+<div style style=”line-height: 25%” align="center">
+<h3> Icelake (OpenMP) </h3>
+<img src=imgs/Tbsv_Icelake_l_n_n.png>
+</div>
+
+<div style style=”line-height: 25%” align="center">
+<h3> A100 (CUDA) </h3>
+<img src=imgs/Tbsv_A100_l_n_n.png>
+</div>
