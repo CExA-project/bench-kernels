@@ -1,6 +1,12 @@
 # bench-kernels
 
 # Compile and Run
+## Installation
+First of all, you need to clone this repo.
+```bash
+git clone --recursive https://github.com/CExA-project/bench-kernels.git
+```
+
 ## CPU (OpenMP backend)
 
 ```bash
